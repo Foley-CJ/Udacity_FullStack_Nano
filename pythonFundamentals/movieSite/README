@@ -1,0 +1,15 @@
+movieSite project contains 4 python files and 1 html file.
+
+index_spin_up.py is the primary driver file.
+This driver file is fed data from the media_data which is organized in classes
+based upon the media classes.
+The driver file heavily utilizes fresh_tomatoes.py to generate an html page which is served.
+
+Future refactoring:  updating media_classes to accept TV shows and stem them from a single
+parent class
+
+
+In order to run program,
+1) copy folder to a location on your device.
+2) CD into it
+3) run with "python index_spin_up.py"
