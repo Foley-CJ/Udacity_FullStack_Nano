@@ -1,0 +1,47 @@
+/* custom classes */
+
+.project-block {
+  margin: 10px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 300px;
+  background-color: rgb(247,247,247)
+}
+
+.standard-border {
+  border-style: solid;
+  border-color: #000000a3;
+}
+
+.text-object {
+  display: flex;
+  align-items: center;
+}
+
+/* semantic object changes */
+
+hr.theme {
+  border-top: 3px solid #39ff3478;
+}
+
+
+h2 {
+  text-align:center;
+  color: #000000a3;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(247,247,247);
+}
+
+article img {
+  margin: auto;
+  display: block;
+  width: auto;
+  max-height: 200px;
+}
+
+* {
+  font-family:"Lucida Grande";
+}
