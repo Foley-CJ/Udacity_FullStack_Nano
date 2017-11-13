@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,118 +13,125 @@
 
 
   <body>
-<div class="container-fluid">
-    <div class="row">
-          <!--<div class="hidden-md-up">-->
-            <!--<img src="static/images/Logo.png" align="left"/>-->
-          <!--</div>-->
 
+    <header>
+      <div class="container">
+        <div class="row-fluid">
           <div class="hidden-sm-down">
-              <img src="static/images/LogoLarge.png" align="right"/>
+            <img src="static/images/LogoLarge.png"/>
           </div>
-    </div>
+        </div>
+      </div>
+    </header>
 
-
-    <div class="row">
-        <nav class="navbar navbar-toggleable-sm navbar-light bg-faded">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-      <!--<a class="navbar-brand" href="#">Navbar</a>-->
-        <!--<img src="static/images/LogoLarge.png">-->
-
-          <div class="hidden-md-up">
-            <img src="static/images/Logo.png" height="40px"/>
-          </div>
-
-
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-
-              <li class="nav-item">
-                <!--<img src="static/images/LogoLarge.png">-->
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-              </li>
-            </ul>
-          </div>
-
-            <!--<form class="form-inline my-2 my-lg-0">-->
-              <!--<input class="form-control mr-sm-2" type="text" placeholder="Search">-->
-              <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
-            <!--</form>-->
-
-    </nav>
-
-
-
-    </div>
-
-</div>
-
-
-
-
-
-<div class="container-fluid">
     <nav class="navbar navbar-toggleable-sm navbar-light bg-faded">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <!--<a class="navbar-brand" href="#">Navbar</a>-->
-        <!--<img src="static/images/LogoLarge.png">-->
-          <div class="hidden-md-up">
-            <img src="static/images/Logo.png" height="40px"/>
-          </div>
-
-
-
-
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+      <div class="hidden-md-up">
+        <img src="static/images/Logo.png" align="left" width="40px"/>
+      </div>
+      <div class="collapse navbar-collapse text-center" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled" href="#">About</a>
           </li>
-
           <li class="nav-item">
-            <!--<img src="static/images/LogoLarge.png">-->
+            <a class="nav-link disabled" href="#">Education</a>
           </li>
-
-
-
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link disabled" href="#">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
-          <div class="myImage"></div>
-        <!--<form class="form-inline my-2 my-lg-0">-->
-          <!--<input class="form-control mr-sm-2" type="text" placeholder="Search">-->
-          <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
-        <!--</form>-->
       </div>
     </nav>
-</div>
 
+    <div class="container" id="projects_content">
 
+      <article class="project-block" id="article-1">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-8">
+            <h2 style="text-align:center"> Fractal Project</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4" style="overflow:auto">
+            <a href="https://github.com/Foley-CJ/Udacity_FullStack_Nano/blob/master/pythonFundamentals/turtleTime/fractalTurtle.py">
+              <img src="static/images/fractal.png" width="300px" class="standard-border img-fluid">
+            </a>
+          </div>
+          <div class="col-md-8 text-object hidden-sm-down" >
+            <p> This project explores the mathematical concept of fractals. It specifically focuses on the Sierpinski triangle.
+                          The code was written in python 3 and heavily relies upon the turtle package. It accepts a integer parameter
+                      that represents the depth of the triangle formation. Although there is no limit, the time it takes for the fractal generation
+                      increases exponetially and should be limited to a max depth of 9. The code itself loops recursively for the given depth
+                      splitting the triangles at their mid points</p>
+          </div>
+        </div>
+      </article>
+      <hr class="theme">
 
+      <article class="project-block" id="article-2">
+        <div class="row">
+          <div class="col-md-4"></div>
+            <div class="col-md-8">
+              <h2 style="text-align:center"> Movies Project</h2>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4" style="overflow:auto">
+            <a href="https://github.com/Foley-CJ/Udacity_FullStack_Nano/blob/master/pythonFundamentals/movieSite/index_spin_up.py">
+              <img src="static/images/movies.png" width="300px" class="standard-border img-fluid">
+            </a>
+          </div>
+          <div class="col-md-8 text-object hidden-sm-down" >
+            <p> This is a basic movie website.  There are three main python files involved, data, class, tomatoes. The
+                      data file holds the raw data associated with each movie. All of this data is stored into a list of objects.
+                      The class movie forms the data object that the data file leverages to store the data in an organized manner.
+                      The tomatoes file imports the data from the raw file and generates a single html file which presents the data
+            </p>
+          </div>
+        </div>
+      </article>
+      <hr class="theme">
 
+      <article class="project-block" id="article-3">
+        <div class="row">
+          <div class="col-md-4"></div>
+            <div class="col-md-8">
+              <h2> Mall Analytics</h2>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4" style="overflow:auto">
+            <img src="static/images/imageNA.png" width="300px" class="standard-border img-fluid">
+          </div>
+          <div class="col-md-8 text-object hidden-sm-down" >
+            <p> This is a placeholder for an ongoing project.  The project relies heavily on python and spark to complete big data
+                      analytics tied to Mall usage.  The project is split into three components with the majority spent on the latter two:
+                          Data collection, grooming, and visualization. The data visualization developement is being conducted with a variety
+                          of python packages including bokeh and plotly while final production will leverage tableau.
+            </p>
+          </div>
+        </div>
+      </article>
+      <hr class="theme">
+    </div>
 
-
-
+    <footer>
+      <br>
+      <p><span id="contact">Contact:  fake.email@domain.com</span> | Copyright 2017 by Connor Foley | All Rights Reserved.</p>
+      <br>
+      <br>
+      <br>
+    </footer>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
