@@ -4,7 +4,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Connor Foley">
+    <meta name="description" content="Connor Foley's personal portfolio homepage">
     <title>Connor's Portfolio</title>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="static/css/custom.css">
@@ -17,8 +20,8 @@
     <header>
       <div class="container">
         <div class="row-fluid">
-          <div class="hidden-sm-down">
-            <img src="static/images/LogoLarge.png"/>
+          <div class="hidden-sm-down col-md-12">
+            <img src="static/images/LogoLarge.png" alt="Large Logo -Connor Foley" class="pull-right"/>
           </div>
         </div>
       </div>
@@ -29,7 +32,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="hidden-md-up">
-        <img src="static/images/Logo.png" align="left" width="40px"/>
+        <img src="static/images/Logo.png" class="small-logo-dim" alt="Small Logo -Connor Foley"/>
       </div>
       <div class="collapse navbar-collapse text-center" id="navbarNav">
         <ul class="navbar-nav mx-auto">
@@ -52,19 +55,19 @@
       </div>
     </nav>
 
-    <div class="container" id="projects_content">
+    <main class="container" id="projects_content">
 
       <article class="project-block" id="article-1">
         <div class="row">
           <div class="col-md-4"></div>
           <div class="col-md-8">
-            <h2 style="text-align:center"> Fractal Project</h2>
+            <h2 class="text-center"> Fractal Project</h2>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4" style="overflow:auto">
+          <div class="col-md-4 overflow-true">
             <a href="https://github.com/Foley-CJ/Udacity_FullStack_Nano/blob/master/pythonFundamentals/turtleTime/fractalTurtle.py">
-              <img src="static/images/fractal.png" width="300px" class="standard-border img-fluid">
+              <img src="static/images/fractal.png" class="standard-border img-fluid" alt="image of generated Sierpinski triangle">
             </a>
           </div>
           <div class="col-md-8 text-object hidden-sm-down" >
@@ -72,23 +75,24 @@
                           The code was written in python 3 and heavily relies upon the turtle package. It accepts a integer parameter
                       that represents the depth of the triangle formation. Although there is no limit, the time it takes for the fractal generation
                       increases exponetially and should be limited to a max depth of 9. The code itself loops recursively for the given depth
-                      splitting the triangles at their mid points</p>
+                      splitting the triangles at their mid points
+            </p>
           </div>
         </div>
       </article>
-      <hr class="theme">
+      <hr class="rule-theme">
 
       <article class="project-block" id="article-2">
         <div class="row">
           <div class="col-md-4"></div>
             <div class="col-md-8">
-              <h2 style="text-align:center"> Movies Project</h2>
+              <h2 class="text-center"> Movies Project</h2>
             </div>
         </div>
         <div class="row">
-          <div class="col-md-4" style="overflow:auto">
+          <div class="col-md-4 overflow-true">
             <a href="https://github.com/Foley-CJ/Udacity_FullStack_Nano/blob/master/pythonFundamentals/movieSite/index_spin_up.py">
-              <img src="static/images/movies.png" width="300px" class="standard-border img-fluid">
+              <img src="static/images/movies.png" class="standard-border img-fluid" alt="image of Movie preview homepage">
             </a>
           </div>
           <div class="col-md-8 text-object hidden-sm-down" >
@@ -100,18 +104,18 @@
           </div>
         </div>
       </article>
-      <hr class="theme">
+      <hr class="rule-theme">
 
       <article class="project-block" id="article-3">
         <div class="row">
           <div class="col-md-4"></div>
             <div class="col-md-8">
-              <h2> Mall Analytics</h2>
+              <h2 class="text-center"> Mall Analytics</h2>
             </div>
         </div>
         <div class="row">
-          <div class="col-md-4" style="overflow:auto">
-            <img src="static/images/imageNA.png" width="300px" class="standard-border img-fluid">
+          <div class="col-md-4 overflow-true">
+            <img src="static/images/imageNA.png" class="standard-border img-fluid" alt="Missing image placeholder image-how meta can we get?">
           </div>
           <div class="col-md-8 text-object hidden-sm-down" >
             <p> This is a placeholder for an ongoing project.  The project relies heavily on python and spark to complete big data
@@ -122,8 +126,31 @@
           </div>
         </div>
       </article>
-      <hr class="theme">
-    </div>
+      <hr class="rule-theme">
+
+      <article class="project-block" id="article-4">
+        <div class="row">
+          <div class="col-md-4"></div>
+            <div class="col-md-8">
+              <h2 class="text-center"> Memory Game</h2>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 overflow-true">
+            <a href="https://github.com/Foley-CJ/memoryWebAppTest">
+              <img src="static/images/MemoryImage.png" class="standard-border img-fluid" alt="homescreen of Memory game">
+            </a>
+          </div>
+          <div class="col-md-8 text-object hidden-sm-down" >
+            <p> This ongoing project is a memory game built on python's django framework and the d3 javascript collection.
+              Originally built as a test for data sessions it features a random question generator written in python that requires the gamer
+              to recall the color, order, and type of shapes shown in previous pages. Future improvements to the game include difficulty settings
+              and a multiplayer mode.
+            </p>
+          </div>
+        </div>
+      </article>
+    </main>
 
     <footer>
       <br>
