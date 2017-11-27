@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="222b9e60-1024-4cc7-808d-671002c20f16" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Developer_Tools/lesson_01/dictionary.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Developer_Tools/lesson_03/course-git-blog-project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Developer_Tools/lesson_03/new-git-project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Developer_Tools/lesson_08/my-travel-plans" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Developer_Tools/lesson_09/course-collaboration-travel-plans" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Developer_Tools/lesson_09/lighthouse" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Developer_Tools/lesson_10/course-collaboration-travel-plans" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Developer_Tools/lesson_11/test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Developer_Tools/lesson_11/test2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Developer_Tools/lesson_12/course-ud303" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Udacity_FullStack_Nano.iml" afterPath="$PROJECT_DIR$/.idea/Udacity_FullStack_Nano.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Developer_Tools/Lesson_1/lesson_12/course-ud303" afterPath="$PROJECT_DIR$/Developer_Tools/Lesson_1/lesson_12/course-ud303" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Developer_Tools/Lesson_2/part_17/fullstack-nanodegree-vm" afterPath="$PROJECT_DIR$/Developer_Tools/Lesson_2/part_17/fullstack-nanodegree-vm" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +17,8 @@
       <file leaf-file-name="report_generation.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Developer_Tools/Lesson_2/part_17/fullstack-nanodegree-vm/vagrant/project_03_logs/report_generation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="72" column="10" lean-forward="false" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+            <state relative-caret-position="88">
+              <caret line="54" column="9" lean-forward="false" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
               <folding>
                 <element signature="e#20#49#0" expanded="true" />
               </folding>
@@ -91,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="791" />
     <option name="y" value="31" />
     <option name="width" value="874" />
@@ -334,7 +324,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="791" y="31" width="874" height="950" extended-state="0" />
+    <frame x="791" y="31" width="874" height="950" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5276442" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -535,8 +525,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Developer_Tools/Lesson_2/part_17/fullstack-nanodegree-vm/vagrant/project_03_logs/report_generation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="72" column="10" lean-forward="false" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+        <state relative-caret-position="88">
+          <caret line="54" column="9" lean-forward="false" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
           <folding>
             <element signature="e#20#49#0" expanded="true" />
           </folding>
