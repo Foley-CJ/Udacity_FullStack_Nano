@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 from datetime import datetime
-from psycopg2 import connect
+from psycopg2 import connect, Error
 from report_constants import fileName, mappingList, q
 
 
@@ -11,17 +11,18 @@ def query_execute(query, queryType, conn_string="dbname='news'"):
 
         Parameters:  query  -  the query that needs to be executed against the database
                      conn_string (optional) - data base the query will be executed against"""
-
-    with connect(conn_string) as conn:
-        with conn.cursor() as cur:
-            cur.execute(query)
-            if queryType == 'extract':
-                return cur.fetchall()
-            elif queryType == 'view':
-                conn.commit()
-            else:
-                print("please provide 'extract' or 'view' for queryType variable")
-
+    try:
+        with connect(conn_string) as conn:
+            with conn.cursor() as cur:
+                cur.execute(query)
+                if queryType == 'extract':
+                    return cur.fetchall()
+                elif queryType == 'view':
+                    conn.commit()
+                else:
+                    print("please provide 'extract' or 'view' for queryType variable")
+    except Error as e:
+        print('Connection Exception error:{}'.format(e))
 
 def generate_view_script(viewName):
     """This module is used to dynamically build the script used to generate the view.

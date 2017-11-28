@@ -5,7 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Developer_Tools/Lesson_2/part_17/fullstack-nanodegree-vm/vagrant/project_03_logs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Developer_Tools/Lesson_2/part_17/fullstack-nanodegree-vm/vagrant/project_04_restaurant" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 2.7.13 (~/anaconda/envs/udacityFundamentals/bin/python)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6.3 (/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
