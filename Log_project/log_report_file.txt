@@ -1,6 +1,6 @@
-Report generated on 2017-11-27 19:48:00.214603. 
+Report generated on 2017-11-27 23:13:29.868740. 
 
-What are the most popular three articles of all time?
+What are the three most popular articles of all time?
 	1: "Candidate is jerk, alleges rival" with a total view count of 338647.
 	2: "Bears love berries, alleges bear" with a total view count of 253801.
 	3: "Bad things gone, say good people" with a total view count of 170098.
@@ -11,5 +11,6 @@ Who are the most popular authors of all time?
 	Anonymous Contributor with a total view count of 170098.
 	Markoff Chaney with a total view count of 84557.
 
-On which days did more than 1% of the requests lead to an error?
-	2016-07-17 had a error connection rate of 2.26%.
+When did more than 1% of requests lead to an error?
+	2016-07-17 had a error 
+                            connection rate of 2.26%.

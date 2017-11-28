@@ -2,7 +2,7 @@
 
 from datetime import datetime
 from psycopg2 import connect
-from report_constants import fileName, mappingList, queryAndQuestions
+from report_constants import fileName, mappingList, q
 
 
 def query_execute(query, queryType, conn_string="dbname='news'"):
@@ -83,7 +83,7 @@ def report_writer():
     f = open(fileName, 'a+')
     f.write("Report generated on {0}. \n".format(datetime.now()))
 
-    for report_entity in queryAndQuestions:
+    for report_entity in q:
         f.write(report_entity['question'])
         data = query_execute(report_entity['query'], 'extract')
         for result in data:

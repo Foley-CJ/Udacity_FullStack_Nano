@@ -42,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/Developer_Tools/Lesson_2/part_17/fullstack-nanodegree-vm/vagrant/project_03_logs/report_constants.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -96,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="637" />
     <option name="y" value="25" />
     <option name="width" value="1027" />
@@ -339,7 +339,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="637" y="25" width="1027" height="950" extended-state="0" />
+    <frame x="637" y="25" width="1027" height="950" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40101522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -523,7 +523,7 @@
     <entry file="file://$PROJECT_DIR$/Developer_Tools/Lesson_2/part_17/fullstack-nanodegree-vm/vagrant/project_03_logs/report_constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding />
         </state>
       </provider>
